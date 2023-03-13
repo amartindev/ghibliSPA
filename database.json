@@ -1,0 +1,76 @@
+{
+  "peliculas": [
+    {
+      "nombre_espanol": "Nausicaä del Valle del Viento",
+      "nombre_japones": "風の谷のナウシカ",
+      "year": 1984,
+      "descripcion": "En un mundo devastado por la guerra y la contaminación, la princesa Nausicaä intenta encontrar un equilibrio entre la humanidad y la naturaleza.",
+      "imagen_personaje": "/img/nausicap.png",
+      "imagen_fondo": "/img/nausicab.jpg"
+    },
+    {
+      "nombre_espanol": "El castillo en el cielo",
+      "nombre_japones": "天空の城ラピュタ",
+      "year": 1986,
+      "descripcion": "Una joven huérfana y un niño aventurero buscan un castillo flotante legendario mientras son perseguidos por piratas y agentes gubernamentales.",
+      "imagen_personaje": "/img/castillop.png",
+      "imagen_fondo": "/img/castillob.jpg"
+    },
+    {
+      "nombre_espanol": "Mi vecino Totoro",
+      "nombre_japones": "となりのトトロ",
+      "year": 1988,
+      "descripcion": "Dos hermanas pequeñas se mudan al campo para estar cerca de su madre enferma y descubren criaturas mágicas en su bosque cercano.",
+      "imagen_personaje": "/img/totorop.png",
+      "imagen_fondo": "/img/totorob.jpg"
+    },
+    {
+      "nombre_espanol": "La tumba de las luciérnagas",
+      "nombre_japones": "火垂るの墓",
+      "year": 1988,
+      "descripcion": "Dos hermanos tratan de sobrevivir en Japón durante la Segunda Guerra Mundial, mientras lidian con la pérdida y la desesperación.",
+      "imagen_personaje": "/img/luciernagasp.png",
+      "imagen_fondo": "/img/luciernagasb.jpg"
+    },
+    {
+      "nombre_espanol": "La princesa Mononoke",
+      "nombre_japones": "もののけ姫",
+      "year": 1997,
+      "descripcion": "Un príncipe lucha por detener una guerra entre humanos y dioses del bosque mientras se enamora de una chica criada por lobos.",
+      "imagen_personaje": "/img/mononokep.png",
+      "imagen_fondo": "/img/mononokeb.jpg"
+    },
+    {
+      "nombre_espanol": "El viaje de Chihiro",
+      "nombre_japones": "千と千尋の神隠し",
+      "year": 2001,
+      "descripcion": "Una niña y sus padres se encuentran atrapados en un mundo de espíritus y monstruos, donde Chihiro debe encontrar el coraje para salvar a sus padres y volver al mundo humano.",
+      "imagen_personaje": "/img/chihirop.png",
+      "imagen_fondo": "/img/chihirob.jpg"
+    },
+    {
+      "nombre_espanol": "El increíble castillo vagabundo",
+      "nombre_japones": "ハウルの動く城",
+      "year": 2004,
+      "descripcion": "Una joven se convierte en una anciana y busca la ayuda de un mago para deshacer el hechizo, mientras un reino en guerra busca al mago por su poder.",
+      "imagen_personaje": "/img/vagabundop.png",
+      "imagen_fondo": "/img/vagabundob.jpg"
+    },
+    {
+      "nombre_espanol": "Ponyo y el secreto de la sirenita",
+      "nombre_japones": "崖の上のポニョ",
+      "year": 2008,
+      "descripcion": "Un niño se hace amigo de una princesa pez y debe ayudarla a escapar de su padre y salvar al mundo bajo el mar de la contaminación humana.",
+      "imagen_personaje": "/img/ponyop.png",
+      "imagen_fondo": "/img/ponyob.jpg"
+    },
+    {
+      "nombre_espanol": "Arrietty y el mundo de los diminutos",
+      "nombre_japones": "借りぐらしのアリエッティ",
+      "year": 2010,
+      "descripcion": "Una familia de pequeños seres debe luchar por sobrevivir y protegerse de los humanos cuando una adolescente humana descubre su existencia.",
+      "imagen_personaje": "/img/arriettyp.png",
+      "imagen_fondo": "/img/arriettyb.jpg"
+    }
+  ]
+}

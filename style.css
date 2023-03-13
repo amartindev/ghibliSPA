@@ -1,0 +1,170 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+}
+.navbar {
+    
+    z-index: 5;
+    max-height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.navbar img {
+    padding: 0;
+    max-height: 4rem;
+}
+
+#container-pelicula {
+    position: relative;
+    width: 100%;
+    
+}
+
+.pelicula {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+
+.nombres {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 0 3rem 1rem;
+}
+
+
+.titulo {
+    font-family: 'Tilt Warp', monospace;
+    font-weight: 900;
+    font-size: 6rem;
+    padding: 2rem 0;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    z-index: 3;
+    animation: entrada-titulo 1s forwards;
+}
+
+.subtitulo {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 700;
+    font-size: 4rem;
+    animation: entrada-titulo 1s forwards;
+    color: #000;
+}
+.year {
+    font-family: 'Caveat', monospace;
+    font-weight: 900;
+    font-size: 2rem;
+    animation: entrada-titulo 1s forwards;
+    color: #000;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 0 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #000;
+    line-height: 100%;
+    z-index: 4;
+    animation: entrada-titulo 1s forwards;
+}
+
+.imagen-personaje {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto; /* Centramos horizontalmente la imagen */
+    max-width: 150%; /* Ajustamos el ancho de la imagen para que no exceda el ancho de la pantalla */
+    height: auto; /* Mantenemos la relación de aspecto de la imagen */
+    z-index: 3;
+    text-align: center;
+    animation: entrada-personaje 1s forwards;
+}
+
+.imagen-personaje img {
+
+    filter: saturate(120%);
+}
+
+.botones {
+    position: fixed;
+    bottom: 0;
+    font-size: x-large;
+    z-index: 5;
+}
+.boton-adelante {
+    position: fixed;
+    right: 0;
+}
+.boton-adelante, .boton-atras {
+    margin: 2rem;
+}
+
+.fondo-glass {
+
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: fixed;
+    top: 0;
+    left: 45%;
+    width: 55%;
+    height: 100%;
+    z-index: 2;
+    clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%);
+
+
+
+    animation: entrada-fondo-glass 1s forwards;
+}
+
+@keyframes entrada-fondo-glass {
+    from {
+      transform: translate(200%);
+
+    }
+    to {
+      transform: translate(0%);
+    }
+  }
+@keyframes entrada-personaje {
+    from {
+      transform: translate(0%, 100%);
+
+    }
+    to {
+      transform: translate(0%);
+    }
+}
+@keyframes entrada-titulo {
+    from {
+      transform: translate(-100%);
+
+    }
+    to {
+      transform: translate(0%);
+    }
+}
